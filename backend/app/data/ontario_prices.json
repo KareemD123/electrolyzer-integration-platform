@@ -1,0 +1,48 @@
+{
+  "description": "Ontario electricity prices (TOU structure)",
+  "source": "IESO 2025 rates",
+  "currency": "CAD",
+  "prices": {
+    "off_peak": {
+      "price_per_mwh": 29.6,
+      "price_per_kwh": 0.0296,
+      "hours": "weekdays 7pm-7am, weekends all day"
+    },
+    "mid_peak": {
+      "price_per_mwh": 40.8,
+      "price_per_kwh": 0.0408,
+      "hours": "weekdays 7am-11am, 5pm-7pm"
+    },
+    "on_peak": {
+      "price_per_mwh": 60.4,
+      "price_per_kwh": 0.0604,
+      "hours": "weekdays 11am-5pm"
+    }
+  },
+  "sample_day": [
+    {"hour": 0, "price_per_mwh": 29.6, "type": "off_peak"},
+    {"hour": 1, "price_per_mwh": 29.6, "type": "off_peak"},
+    {"hour": 2, "price_per_mwh": 29.6, "type": "off_peak"},
+    {"hour": 3, "price_per_mwh": 29.6, "type": "off_peak"},
+    {"hour": 4, "price_per_mwh": 29.6, "type": "off_peak"},
+    {"hour": 5, "price_per_mwh": 29.6, "type": "off_peak"},
+    {"hour": 6, "price_per_mwh": 29.6, "type": "off_peak"},
+    {"hour": 7, "price_per_mwh": 40.8, "type": "mid_peak"},
+    {"hour": 8, "price_per_mwh": 40.8, "type": "mid_peak"},
+    {"hour": 9, "price_per_mwh": 40.8, "type": "mid_peak"},
+    {"hour": 10, "price_per_mwh": 40.8, "type": "mid_peak"},
+    {"hour": 11, "price_per_mwh": 60.4, "type": "on_peak"},
+    {"hour": 12, "price_per_mwh": 60.4, "type": "on_peak"},
+    {"hour": 13, "price_per_mwh": 60.4, "type": "on_peak"},
+    {"hour": 14, "price_per_mwh": 60.4, "type": "on_peak"},
+    {"hour": 15, "price_per_mwh": 60.4, "type": "on_peak"},
+    {"hour": 16, "price_per_mwh": 60.4, "type": "on_peak"},
+    {"hour": 17, "price_per_mwh": 40.8, "type": "mid_peak"},
+    {"hour": 18, "price_per_mwh": 40.8, "type": "mid_peak"},
+    {"hour": 19, "price_per_mwh": 29.6, "type": "off_peak"},
+    {"hour": 20, "price_per_mwh": 29.6, "type": "off_peak"},
+    {"hour": 21, "price_per_mwh": 29.6, "type": "off_peak"},
+    {"hour": 22, "price_per_mwh": 29.6, "type": "off_peak"},
+    {"hour": 23, "price_per_mwh": 29.6, "type": "off_peak"}
+  ]
+}

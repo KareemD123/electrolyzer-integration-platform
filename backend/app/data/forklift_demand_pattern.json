@@ -1,0 +1,32 @@
+{
+  "description": "Typical forklift fleet H2 demand pattern for 3-shift distribution center",
+  "fleet_size": 50,
+  "average_daily_consumption_kg": 800,
+  "weekday_pattern": [
+    {"hour": 0, "demand_kg_h": 15, "activity": "night_shift_low"},
+    {"hour": 1, "demand_kg_h": 15, "activity": "night_shift_low"},
+    {"hour": 2, "demand_kg_h": 18, "activity": "night_shift_moderate"},
+    {"hour": 3, "demand_kg_h": 18, "activity": "night_shift_moderate"},
+    {"hour": 4, "demand_kg_h": 20, "activity": "night_shift_peak"},
+    {"hour": 5, "demand_kg_h": 25, "activity": "shift_change_prep"},
+    {"hour": 6, "demand_kg_h": 45, "activity": "morning_shift_start"},
+    {"hour": 7, "demand_kg_h": 40, "activity": "morning_shift_high"},
+    {"hour": 8, "demand_kg_h": 38, "activity": "morning_shift_high"},
+    {"hour": 9, "demand_kg_h": 36, "activity": "morning_shift_moderate"},
+    {"hour": 10, "demand_kg_h": 34, "activity": "morning_shift_moderate"},
+    {"hour": 11, "demand_kg_h": 32, "activity": "lunch_slowdown"},
+    {"hour": 12, "demand_kg_h": 28, "activity": "lunch_period"},
+    {"hour": 13, "demand_kg_h": 30, "activity": "post_lunch"},
+    {"hour": 14, "demand_kg_h": 42, "activity": "afternoon_shift_start"},
+    {"hour": 15, "demand_kg_h": 38, "activity": "afternoon_shift_high"},
+    {"hour": 16, "demand_kg_h": 36, "activity": "afternoon_shift_moderate"},
+    {"hour": 17, "demand_kg_h": 34, "activity": "afternoon_shift_moderate"},
+    {"hour": 18, "demand_kg_h": 32, "activity": "evening_slowdown"},
+    {"hour": 19, "demand_kg_h": 28, "activity": "evening_slowdown"},
+    {"hour": 20, "demand_kg_h": 24, "activity": "night_shift_ramp"},
+    {"hour": 21, "demand_kg_h": 22, "activity": "night_shift_moderate"},
+    {"hour": 22, "demand_kg_h": 18, "activity": "night_shift_low"},
+    {"hour": 23, "demand_kg_h": 16, "activity": "night_shift_low"}
+  ],
+  "weekend_multiplier": 0.5
+}

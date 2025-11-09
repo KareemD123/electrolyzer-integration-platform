@@ -1,0 +1,31 @@
+{
+  "NH500-ONT-001": {
+    "site_name": "Ontario Distribution Center",
+    "model": "NH-500",
+    "max_production_kg_h": 45.0,
+    "max_production_kg_day": 1080,
+    "min_turndown_pct": 5.0,
+    "max_turndown_pct": 100.0,
+    "max_ramp_rate_pct_per_sec": 10.0,
+    "rated_power_kw": 2400,
+    "stack_energy_kwh_per_kg": 48.0,
+    "system_energy_kwh_per_kg": 53.0,
+    "location": {
+      "latitude": 43.6532,
+      "longitude": -79.3832,
+      "city": "Toronto",
+      "province": "Ontario",
+      "country": "Canada"
+    },
+    "electricity_market": "IESO",
+    "storage": {
+      "has_storage": true,
+      "capacity_kg": 1500,
+      "min_safe_level_kg": 500,
+      "current_level_kg": 850
+    },
+    "commissioned_date": "2025-07-28",
+    "application": "forklift_fueling",
+    "status": "operational"
+  }
+}
