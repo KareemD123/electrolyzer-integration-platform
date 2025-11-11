@@ -32,7 +32,30 @@ This MVP demonstrates:
 - Node.js 18+
 - npm 9+
 
-### Backend Setup
+### One-Command Startup (Recommended)
+
+Start both backend and frontend servers with a single command:
+
+```bash
+./dev-start.sh
+```
+
+This script will:
+- Check and install dependencies if needed
+- Start the backend server on port 8000
+- Start the frontend dev server on port 5173
+- Display all server URLs
+- Create log files (`backend.log` and `frontend.log`)
+- Handle graceful shutdown with Ctrl+C
+
+**Access the application:**
+- Frontend: **http://localhost:5173**
+- Backend API: **http://localhost:8000**
+- API Docs: **http://localhost:8000/docs**
+
+### Manual Setup (Alternative)
+
+#### Backend Setup
 
 ```bash
 cd backend
@@ -52,7 +75,7 @@ pip install -r requirements.txt
 Backend runs at: **http://localhost:8000**  
 API docs at: **http://localhost:8000/docs**
 
-### Frontend Setup
+#### Frontend Setup
 
 ```bash
 cd frontend
